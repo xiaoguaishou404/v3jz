@@ -1,18 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
   <router-view />
-
 </template>
 
 <script>
 import { RouterLink } from 'vue-router';
-import HelloWorld from './components/HelloWorld.vue'
+// import Amber from './components/Amber.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     RouterLink
   }
 }
